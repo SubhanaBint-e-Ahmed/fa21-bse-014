@@ -12,7 +12,12 @@ console.log(name.slice(2))/** with 1 parameter */
 console.log(name.replace("u","o"))
 /**concat method */
 let friend="zara"
-console.log(name.concat(" is a friend of ", friend,"khan"))
+console.log(name.concat(" is a friend of ", friend," khan"))
+
 /**trim method */
-let game="   cricket  "
+let game ="   cricket  "
 console.log(game.trim())
+
+/**atChar Method */
+let word = "my world"
+console.log(word.charAt(1))
