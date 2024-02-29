@@ -19,5 +19,19 @@ let game ="   cricket  "
 console.log(game.trim())
 
 /**atChar Method */
-let word = "my world"
-console.log(word.charAt(1))
+let word = "my world ";
+console.log(word.charAt(1));
+
+/**at method */
+let letter= word.at(4)
+console.log(letter);
+/** for negitive index */
+console.log(word.at(-2))
+
+/**repeat method */
+let result = word.repeat(2);
+console.log(result)
+
+/**split method */
+let cons ="a,b,c"
+console.log(cons.split(","))
