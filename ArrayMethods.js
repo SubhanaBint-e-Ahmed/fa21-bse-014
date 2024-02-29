@@ -56,3 +56,30 @@ console.log(number)
 let newNo = number.slice(3, 5)
 
 console.log(newNo)
+
+/**reduceright method */
+let numbers = [5, 4, 9, 6, 2];
+let sum = numbers.reduceRight(myFunction);
+console.log(sum)
+
+function myFunction(a, b) {
+  return a + b;
+}
+
+/**every method */
+let value = [4, 43, 19, 11, 5];
+let overall = value.every(everyFunction);
+console.log(overall)
+
+function everyFunction(x, index, array) {
+  return x > 18;
+}
+
+/**some method */
+let x = [5, 4, 9, 16, 25];
+let some= x.some(someFunction);
+console.log(sum)
+
+function someFunction(value, index, array) {
+  return value > 18;
+}
