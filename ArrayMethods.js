@@ -59,10 +59,10 @@ console.log(newNo)
 
 /**reduceright method */
 let numbers = [5, 4, 9, 6, 2];
-let sum = numbers.reduceRight(myFunction);
+let sum = numbers.reduceRight(reduceFunction);
 console.log(sum)
 
-function myFunction(a, b) {
+function reduceFunction(a, b) {
   return a + b;
 }
 
@@ -82,4 +82,12 @@ console.log(sum)
 
 function someFunction(value, index, array) {
   return value > 18;
+}
+
+/**filter function */
+let Array = [4, 46, 91, 6, 50];
+let filter = Array.filter(filterFunction);
+
+function filterFunction(x) {
+  return x > 18;
 }
